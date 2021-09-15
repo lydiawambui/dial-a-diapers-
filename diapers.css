@@ -1,35 +1,89 @@
+.reddish{border: 1px solid red}
+.blueish{border:  1px dashed blue;}
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.main{
+  padding-top: 50px;
+  background-image: url(../dial-a-diapers-/otherImages/bg.jpg);
+}
+.navs{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: rgb(175, 14, 14);
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 70px; 
+}
 .topnav {
-    background-color: rgb(175, 14, 14);
-    overflow: hidden;
-    margin-top: 30px;
-  }
-  
-  
+  padding-top: 15px;   
+} 
 .topnav a {
-    float:right;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    
-  }
-.huggies-logo img{width: 200px;
-                 height: 100px;
-                 margin-top: -66px;}
-#left{padding-right:  434px;}
+  text-decoration: none;
+  color: white;
+  margin-right: 45px;
+  padding-right: 45px;
+  font-size: 20px;
+  font-weight: 300;
+  border-right: 1px solid #615757;
+  padding-bottom: 30px;
+  padding-top: 15px;   
+}
+.topnav a:last-child{
+  border-right: none
+}
+.huggies-logo{
+  display: flex;
+}
+.huggies-logo a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.huggies-logo img{
+  width: 200px;
+  margin-top: -30px;
+}
+.second-section{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.teddy{
+  font-size: 35px;
+  color: #f18181;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  
+}
+/* .teddy p{
+  font-size: 35px;
+  color: #f18181;
+  letter-spacing: 2px;
+
+} */
+.teddy img{
+  margin-left: 290px;
+  width: 200px;
+}
+.babies img{
+  max-width: 100%;
+}
+
 .second{    margin-left: 30px;
       margin-top: 94px;
       font-size: 41px;
       color: #f18181;}
-.babies img{     margin-left: 498px;
+/* .babies img{     margin-left: 498px;
   margin-top: -276px;;
-  width: 50%;}
-.teddy img{
-  margin-left: 299px;
- 
-  margin-top:  -161px;;
-  }
+  width: 50%;} */
+
 .grid-container{display: grid;
 grid-template-columns: auto auto auto auto auto auto;
 grid-gap: 3px;
