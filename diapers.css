@@ -1,3 +1,4 @@
+
 .topnav {
     background-color: rgb(175, 14, 14);
     overflow: hidden;
@@ -14,6 +15,20 @@
     font-size: 17px;
     
   }
+.mmain{position: relative;}
+.main{background-image: url(./otherImages/White-Woven-Canvas-Floor.jpg);
+  background-size:  39%;
+  position: absolute;
+ 
+}
+.second-background{background-image: url(./otherImages/White-Woven-Canvas-Floor.jpg);
+  background-size: 611px;
+position: absolute;
+width:100%}
+  
+  
+
+
 .huggies-logo img{width: 200px;
                  height: 100px;
                  margin-top: -66px;}
@@ -21,7 +36,7 @@
 .second{    margin-left: 30px;
       margin-top: 94px;
       font-size: 41px;
-      color: #f18181;}
+      color:rgb(138, 9, 9);}
 .babies img{     margin-left: 498px;
   margin-top: -276px;;
   width: 50%;}
@@ -43,6 +58,8 @@ color: #f52626;}
  border-radius: 20px;
 
 }
+.grid-item-one{    margin-top: 420px;}
+.grid-item-two{    margin-top: 415px;}
 .grid-containerr{display: grid;
 grid-template-columns: auto auto;}
 .white{color: white;
@@ -57,11 +74,30 @@ margin-top: 40px;}
   margin-top: 15px; 
 
 }
+.shopping-cart{background-color: rgb(145, 8, 8) ;
+  
+  color: white;
+  padding: 8px;
+  display: inline-table;
+  
+}
+tr.bordered {
+  border-bottom: 1px solid #000;
+}
+.first-tr{border-bottom: 1px solid black; }
+.underline tr{ border-bottom: 1px solid black; }
+.grid-item-two tr{
+padding: 10px;}
+.space{display: inline-table;
+background-color: white;}
+.inline-table{display: inline-table;}
+.inline-tablee{display: inline-table;
+background-color: #fdeaee;;}
 
 .inline{display: inline-flex;
 gap: 20px;}
 .grey{color: rgb(133, 115, 115);}
-table{gap: 20px;
+table{gap: 40px;
 }
 .plus button{color: white;
 background-color: rgb(192, 36, 62);
@@ -96,6 +132,14 @@ border-collapse: collapse;}
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+.arrow-down{border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+margin-left: 182px;}
 .product{color: white;
 background-color: rgb(223, 143, 143);
 }
@@ -104,14 +148,19 @@ background-color: rgb(223, 143, 143);
   margin-top: -161px;
   
 }
-
+tbody{background-color: rgb(248, 228, 231);
+display: table-cell;
+}
+.item-4{padding-left: 105px;}
 .guest{color: white;
 background-color: rgb(185, 34, 34);
 padding: 20px;}
 .grid-containerrr{display: grid;
 grid-template-columns: auto auto;
 gap: 40px;}
-.grid-one{margin-bottom:20px;}
+.grid-one{
+  margin-top: 416px;}
+.grid-two{margin-top: 416px;}
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -133,7 +182,7 @@ background-color: gray;}
 .fb{background-color: rgb(15, 15, 82);}
 .twitter{background-color: rgb(40, 166, 216)}
 .checkout{color: white;
-background-color: rgb(22, 133, 22);
+background-color: rgb(12, 153, 12);
 margin-top: 20px;
 margin-left: 25px;}
 .icons{text-align: center;
